@@ -25,6 +25,6 @@ while True:
 
 
 
-# curl -X GET -sD -     --compressed     --header 'Accept: application/json'     --header 'Accept-Encoding: gzip'     --header 'apikey: ykObTynCnnXkvdBM1o2ezfUmXKeRbyrM'     'https://airapi.airly.eu/v2/measurements/installation?installationId=3328'
+# curl -X GET -sD -     --compressed     --header 'Accept: application/json'     --header 'Accept-Encoding: gzip'     --header 'apikey: {apikey}'     'https://airapi.airly.eu/v2/measurements/installation?installationId=3328'
 
 
