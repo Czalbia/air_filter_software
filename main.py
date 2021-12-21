@@ -2,11 +2,11 @@ import os
 import json
 import time
 
-
+apikey=input()
 
 while True:
 
-    data= os.system("curl -X GET     --header 'Accept: application/json'     --header 'apikey: ykObTynCnnXkvdBM1o2ezfUmXKeRbyrM'     'https://airapi.airly.eu/v2/measurements/installation?installationId=3328' |json_pp > mydata.json")
+    data= os.system(f"curl -X GET     --header 'Accept: application/json'     --header 'apikey: {apikey}'     'https://airapi.airly.eu/v2/measurements/installation?installationId=3328' |json_pp > mydata.json")
     pollution=[0,0,0,0,0,0]
     f=open('mydata.json')
     data = json.load(f)
