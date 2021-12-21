@@ -12,8 +12,8 @@ while True:
 
     file= os.system(f"curl -X GET     --header 'Accept: application/json'     --header 'apikey: {apikey}'     'https://airapi.airly.eu/v2/measurements/installation?installationId=3328' |json_pp > mydata.json")
     
-    f=open('mydata.json')
-    file = json.load(f)
+    
+    file = json.load(open('mydata.json'))
 
     pollution=0
 
