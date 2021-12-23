@@ -38,7 +38,7 @@ while True:
         print('Activate the air filter!')
         print(pollution)
         tuyaApi.post(f'/v1.0/iot-03/devices/{classified["TuyaDeviceId"]}/commands', commands)
-        
+        tuyaApi.post(f'/v1.0/iot-03/devices/{classified["TuyaDeviceId2"]}/commands', commands)
         # In the future here will be some code for TUYA electrical socket activation
 
     time.sleep(60*15)
