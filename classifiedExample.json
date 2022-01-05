@@ -5,5 +5,6 @@
     "TuyaUsername": "elitSedDo",
     "TuyaPassword": "eiusmodTempor",
     "TuyaEndPoint": "https://www.tuyaSOMETHING",
-    "TuyaDeviceId": "asfasfasfsafasfsa"
+    "TuyaDeviceId": "asfasfasfsafasfsa",
+    "ArduinoPort": "kidos"
 }
