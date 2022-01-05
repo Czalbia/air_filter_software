@@ -8,8 +8,8 @@ import pyfirmata
 
 #opening up required files
 classified = json.load(open('classified.json', 'r'))
-board = pyfirmata.Arduino('COM4')
-R,Y, G=12,11,10
+board = pyfirmata.Arduino(classified['ArduinoPort'])
+R,Y, G=9,10,11
 # while loop bc we want to alwyas check the air quality
 while True:
     board.digital[R].write(0)
@@ -35,7 +35,7 @@ while True:
         print(f'Air pollution is heavy({pollution})')
         board.digital[R].write(1)
 
-    time.sleep(10)
+    time.sleep(60*15)
     
 
 f.close()
