@@ -6,5 +6,7 @@
     "TuyaPassword": "eiusmodTempor",
     "TuyaEndPoint": "https://www.tuyaSOMETHING",
     "TuyaDeviceId": "asfasfasfsafasfsa",
-    "ArduinoPort": "kidos"
+    "latitude":"50.123",
+    "longtitude":"21.89"
+
 }
