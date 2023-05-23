@@ -1,3 +1,3 @@
-# The air filter activation program
+# Air filter software
 
-It works by getting api from airly.org then it checks those values and turns on the air filter
+It works by checking the value of air pollution every 15 minutes, then adjusts air filter speed to the level of pollution
